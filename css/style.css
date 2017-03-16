@@ -1,0 +1,64 @@
+// Remove gutters from Bootstrap's grid
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row > [class^="col-"],
+.row > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+input[type=text] {
+	border-radius: 0;
+}
+
+.map, .data {
+	height: 100vh;
+}
+
+body {
+	overflow: hidden;
+}
+
+.data {
+	overflow: auto;
+}
+
+.list .truck-item, .no-trucks {
+	width: 100%;
+	border: 1px solid #eee;
+	border-bottom: none;
+	padding: 5px 10px;
+	border-collapse: collapse;
+}
+
+.list .truck-item:last-child, .no-trucks {
+	border-bottom: 1px solid #eee;
+}
+
+.list .truck-item:hover {
+	background: #f5f5f5;
+}
+
+.list .truck-item a {
+	display: block;
+}
+
+.list .truck-item a:hover {
+	text-decoration: none;
+}
+
+.types:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.types {
+	border-bottom: 1px solid #eee;
+}
+
+.alert {
+	margin-bottom: 0;
+}
