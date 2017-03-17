@@ -1,0 +1,71 @@
+html, body {
+ height: 100%; margin: 0; padding: 0;
+}
+
+#map { 
+	height: 100%;
+}
+
+.nav-pills {
+	display: flex;
+	justify-content: center;
+	font-size: 10px;
+	margin-bottom: 3px;
+}
+
+.nav>li>a {
+	padding: 10px 15px;
+}
+
+.search_controls {
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
+}
+
+#search_input {
+	width: 400px;
+}
+
+/* JQuery UI Spinner */
+.ui-autocomplete-loading {
+	background: white url("../images/loading.gif") right center no-repeat;
+}
+
+.body_image {
+	height: 75px;
+}
+
+.help_container {
+	position: absolute;
+	display: inline-block;
+	visibility: hidden;
+
+	padding: 5px 10px;
+	border-radius: 1px;
+	margin-top: 5px;
+	margin-left: 40px;
+	transform: translateY(-30px);
+	
+	background-color: white;
+}
+
+.help_text {
+	font-size: 12px;
+	width: 175px;
+	text-align: justify;
+
+}
