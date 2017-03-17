@@ -1,6 +1,5 @@
-# Uber Coding Challenge - San Francisco Movies
+MyPOS Assignment - San Francisco Movies
 
-### Challenge Link: [prompt]
 See it live here: [app]
 
 Things to Note:
@@ -10,4 +9,6 @@ Things to Note:
 3. Hit search
 
 ![alt tag](https://cloud.githubusercontent.com/assets/5565596/12123308/1b3b40fc-b395-11e5-877c-cb8caa5144ab.png)
+
+=======
 
