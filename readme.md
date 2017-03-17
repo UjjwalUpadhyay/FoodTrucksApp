@@ -1,6 +1,6 @@
 MyPOS Assignment - San Francisco Movies
 
-See it live here: [app]
+See it live here: https://uber-coding-challenge.herokuapp.com/
 
 Things to Note:
 
